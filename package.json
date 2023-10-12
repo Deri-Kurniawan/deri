@@ -1,0 +1,23 @@
+{
+  "name": "deri",
+  "private": true,
+  "description": "Monorepo for a bunch of libraries Deri",
+  "license": "MIT",
+  "keywords": [
+    "deri",
+    "library",
+    "monorepo"
+  ],
+  "author": "Deri-Kurniawan <deri.netuchi@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/deri-kurniawan/deri/issues"
+  },
+  "homepage": "https://github.com/deri-kurniawan/deri#readme",
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "lerna": "^7.3.0"
+  }
+}
